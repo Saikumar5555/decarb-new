@@ -3,10 +3,10 @@ import { Typography, Card, CardBody, Button, Input } from "@material-tailwind/re
 import { useNavigate } from "react-router-dom";
 import LorryImage from "./img/Ashok_LP.jpg";
 import lorry2 from "./img/tata_ace.jpg"
-import lorry3 from "./img/mahindra_b.jpg"
+import lorry3 from "./img/mahindra_dost.jpg"
 import lorry4 from "./img/mahindra_dost.jpg"
 import lorry5 from "./img/lorry.jpg"
-import lorry6 from "./img/mahindra_f.jpg"
+import lorry6 from "./img/BharatBenz.jpg"
 import lorry7 from "./img/Eicher_g.jpg"
 import lorry8 from "./img/BharatBenz.jpg"
 import lorry9 from "./img/SML_i.jpg"
@@ -259,11 +259,11 @@ function Fleet() {
     // Handle saving vehicles here
   };
 
-const navigatetoheader = (vehicle) => {
-  navigate("/user-dashboard/Vehicle_analysis", { state: { vehicle } });
-  navigate("/user-dashboard/Vehicle_analysis/overview", { state: { vehicle } });
-};
+  const navigatetoheader = (vehicle) => {
+    navigate("/dashboard/Vehicle_analysis",{state: {vehicle}});
+    navigate("/dashboard/Vehicle_analysis/overview",{state: {vehicle}});
 
+  };
 
   const handleFilterChange = (status) => {
     setFilter(status);
@@ -547,5 +547,4 @@ const navigatetoheader = (vehicle) => {
 }
 
 export default Fleet;
-
 
