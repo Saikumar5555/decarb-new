@@ -98,7 +98,7 @@ import {
  
   Vehicle_Analysis,
 } from "@/widgets/layout";
-import Configurator from "@/widgets/layout/Configurator";
+import { Configurator } from "@/widgets/layout";
 
 import routes from "@/routes";
 import { useMaterialTailwindController } from "@/context";
