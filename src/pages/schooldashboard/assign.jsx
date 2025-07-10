@@ -53,7 +53,7 @@ const openMapModal = (url, name) => {
   setModalOpen(true);
 };
 
-  const API_BASE_URL = 'http://127.0.0.1:8000'; // Adjust this to your FastAPI server URL
+  const API_BASE_URL = 'http://13.202.84.210:3002'; // Adjust this to your FastAPI server URL
 
   const handleCsvUpload = (e) => {
     const file = e.target.files[0];
@@ -117,10 +117,10 @@ const openMapModal = (url, name) => {
     // Update the result paths to be relative to the API base URL
     const processedResult = {
       ...result,
-    student_map: "http://localhost:8000/view/student_locations",
-  cluster_map: "http://localhost:8000/view/student_clusters_map",
-  route_map: "http://localhost:8000/view/all_bus_routes",
-  route_csv: "http://localhost:8000/download/bus_routes_summary"
+    student_map: "http://13.202.84.210:8083/view/student_locations",
+  cluster_map: "http://13.202.84.210:8083/view/student_clusters_map",
+  route_map: "http://13.202.84.210:8083/view/all_bus_routes",
+  route_csv: "http://13.202.84.210:8083/download/bus_routes_summary"
     };
     
     setClusterResult(processedResult);

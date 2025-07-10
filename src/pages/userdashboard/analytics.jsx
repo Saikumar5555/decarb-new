@@ -13,7 +13,7 @@ import lorry2 from "./img/tata_ace.jpg"
 import lorry4 from "./img/mahindra_dost.jpg"
 import lorry5 from "./img/lorry.jpg"
 import lorry6 from "./img/lorry.jpg"
-import lorry7 from "./img/Eicher_g.jpg"
+import lorry7 from "./img/lorry.jpg"
 import lorry8 from "./img/BharatBenz.jpg"
 // Register Chart.js components
 ChartJS.register(Title, Tooltip, Legend, LineElement, CategoryScale, LinearScale);
