@@ -7,7 +7,7 @@ import {UserDashboard }from './layouts/UserDashboard';
 import { Auth } from './layouts';
 
 // import { SchoolDashboard, UserDashboard, Auth } from '../src/layouts'; 
-import SignIn from '../src/pages/auth/sign-in';
+import { SignIn  } from './pages/auth';
 
 
 function App() {
