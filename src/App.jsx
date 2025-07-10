@@ -4,7 +4,7 @@ import React from 'react';
 import { Routes, Route, Navigate } from 'react-router-dom';
 import {SchoolDashboard} from './layouts/SchoolDashboard';
 import {UserDashboard }from './layouts/UserDashboard';
-import {Auth} from './layouts/Auth';
+import { Auth } from './layouts';
 
 // import { SchoolDashboard, UserDashboard, Auth } from '../src/layouts'; 
 import SignIn from '../src/pages/auth/sign-in';
