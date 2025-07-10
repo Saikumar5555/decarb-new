@@ -10,14 +10,11 @@ import { SlCalender } from "react-icons/sl";
 import { useNavigate } from "react-router-dom";
 import LorryImage from "./img/Ashok_LP.jpg";
 import lorry2 from "./img/tata_ace.jpg"
-import lorry3 from "./img/mahindra_b.jpg"
 import lorry4 from "./img/mahindra_dost.jpg"
 import lorry5 from "./img/lorry.jpg"
 import lorry6 from "./img/mahindra_f.jpg"
 import lorry7 from "./img/Eicher_g.jpg"
 import lorry8 from "./img/BharatBenz.jpg"
-import lorry9 from "./img/SML_i.jpg"
-import lorry10 from "./img/Force_m.webp"
 // Register Chart.js components
 ChartJS.register(Title, Tooltip, Legend, LineElement, CategoryScale, LinearScale);
 
@@ -126,7 +123,6 @@ const vehicles = [
     manufacturer:'Ashok Leyland',
     location:"Maharashtra",
     chassisNo: "MBL4D4BXYH123456",
-    location:"Maharashtra",
   },
   {
     image: lorry2 ,
