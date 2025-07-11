@@ -41,9 +41,9 @@ export function Sidenav({ brandImg, brandName, routes }) {
       } fixed inset-0 z-50 my-4 ml-4 h-[calc(100vh-32px)] w-72 rounded-xl transition-transform duration-300 xl:translate-x-0 border border-blue-gray-100`}
     >
       <div className="relative">
-        <Link to="/" className="py-6 px-8 flex items-center gap-4">
+        <Link to="/" className="py-4 px-8 flex items-center gap-4">
           <img
-            src={img}
+            src="https://mbs-data-bucket.s3.ap-south-1.amazonaws.com/website/images/Mbs_main/mbs_logo.png"
             alt="Brand Logo"
             className="w-12 h-12 object-cover rounded-full"
           />
@@ -126,8 +126,8 @@ export function Sidenav({ brandImg, brandName, routes }) {
 }
 
 Sidenav.defaultProps = {
-  brandImg: "./logo.png",
-  brandName: "Decarbonization AI",
+  brandImg: "https://mbs-data-bucket.s3.ap-south-1.amazonaws.com/website/images/Mbs_main/mbs_logo.png",
+  brandName: "Route Optimize",
 };
 
 Sidenav.propTypes = {

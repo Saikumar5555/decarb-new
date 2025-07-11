@@ -135,7 +135,7 @@ function Assign() {
     }
   
     try {
-      const response = await axios.post("http://localhost:8000/api/recommend_top_vehicles", formData, {
+      const response = await axios.post("http://13.202.84.210:3002/api/recommend_top_vehicles", formData, {
         headers: {
           "Content-Type": "multipart/form-data",
         },

@@ -35,6 +35,15 @@ export function SignIn() {
 
   return (
     <section className="m-8 flex gap-4">
+    <div className="absolute top-0 left-0 w-full h-16 z-50 flex items-center justify-between px-4">
+      <a href='https://www.mbstech.ai/' target='_blank' className="flex items-center">
+      <img
+        src="https://mbs-data-bucket.s3.ap-south-1.amazonaws.com/website/images/Mbs_main/mbstech.ai.png"
+        alt="Top Left"
+        className="absolute top-0 left-0 p-6 w-[13%] h-auto z-50"
+      />
+      </a>
+    </div>
       <div className="w-full lg:w-3/5 mt-24">
         <div className="text-center">
           <Typography variant="h2" className="font-bold mb-4">Sign In</Typography>
@@ -99,29 +108,14 @@ export function SignIn() {
             </Typography>
           )}
 
-          <div className="flex items-center justify-end gap-2 mt-6">
-            <Typography variant="small" className="font-medium text-gray-900">
-              <a href="#">Forgot Password</a>
-            </Typography>
-          </div>
-
-          <Typography variant="paragraph" className="text-center text-blue-gray-500 font-medium mt-4">
-            Not registered?
-            <Link to="/auth/sign-up" className="text-gray-900 ml-1">Create account</Link>
-          </Typography>
-
-          {/* Demo credentials info */}
-          <div className="mt-6 text-sm text-center text-gray-600">
-            <p>Demo School: <b>school@gmail.com</b> / <b>123</b></p>
-            <p>Demo User: <b>user@gmail.com</b> / <b>123</b></p>
-          </div>
         </form>
       </div>
-      <div className="w-2/5 h-full hidden lg:block">
-        <img
-          src="/img/pattern.png"
-          className="h-full w-full object-cover rounded-3xl"
-          alt="Pattern"
+      <div className="w-2/5 h-[95vh] hidden lg:block">
+        <iframe
+          src="all_bus_routes.html" 
+          title="HTML Preview"
+          className="h-full w-full rounded-3xl border border-gray-200"
+          sandbox="allow-scripts allow-same-origin"
         />
       </div>
     </section>
